@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center p-5">
+        <h1 class="display-1">Tic Tac Toe</h1>
+    </header>
+
+    <div class="display-2 text-center mt-4" id="gameStatus"></div>
+
+    <div class="container mx-auto my-4">
+        <section class="row">
+            <div boxIndex="0" class="box" id="cell0"> </div>
+            <div boxIndex="1" class="box" id="cell1"> </div>
+            <div boxIndex="2" class="box" id="cell2"> </div>
+        </section>
+        <section class="row">
+            <div boxIndex="3" class="box" id="cell3"> </div>
+            <div boxIndex="4" class="box" id="cell4"> </div>
+            <div boxIndex="5" class="box" id="cell5"> </div>
+        </section>
+        <section class="row">
+            <div boxIndex="6" class="box" id="cell6"> </div>
+            <div boxIndex="7" class="box" id="cell7"> </div>
+            <div boxIndex="8" class="box" id="cell8"> </div>
+        </section>
+    </div>
+
+    <div class="d-grid justify-content-center">
+        <button type="button" class="btn btn-lg" id="startButton">
+            Tempted to tackle Tic Tac Toe?
+        </button>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
