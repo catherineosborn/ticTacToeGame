@@ -10,7 +10,7 @@
   }
 
 .box:hover {
-    background-color: #0004f9;
+    background-color: #6264ba;
 }
 
 .row {
@@ -21,13 +21,13 @@
 }
 
 header {
-    background-color: #0004f9;
+    background-color: #6264ba;
 }
 
 #startButton {
-    background-color: #0004f9;
+    background-color: #6264ba;
 }
 
 body {
-    background-color: rgb(211, 206, 60);
+    background-color: rgb(182, 229, 226);
 }
